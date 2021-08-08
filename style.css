@@ -1,0 +1,56 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  height: 100vh;
+  overflow: hidden;
+  background: url('https://source.unsplash.com/1600x900/?landscape');
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+.card{
+  padding: 2rem;
+  background-color: #22222277;
+  color: #fff;
+  border-radius: 15px;
+  width: 90%;
+}
+
+.search-box button{
+  padding: 0.5rem 0.8rem;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.search-box button:hover{
+  background-color: #222;
+}
+
+.search{
+  margin-bottom: 1rem;
+  width: calc(100% - 50px);
+  background-color: #000;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+}
+
+.h1{
+  font-size: 1.8rem;
+}
+
+.temp{font-weight:600;font-size: 4rem;}
+.w-type{font-weight: 700;font-size: 2rem;}
